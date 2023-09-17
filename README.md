@@ -28,3 +28,5 @@ Currently, two official plugins are available:
  2TH cua effect:
  - TH1: dep array la mot mang rong -> callback trong useEffect chi chay mot lan duy nhat
  - TH2: dep array co dieu kien -> callback chay lai khi thay doi gia tri
+
+ Firebase lấy data theo key: mỗi collection là 1 key riêng biệt. key chỉ tồn tại duy nhất

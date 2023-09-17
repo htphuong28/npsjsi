@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Signin from '../login/signin'
-import Signup from '../register/signup'
+// import Signup from '../register/signup'
 import Navbar from '../navbar/Navbar'
 import ShoesCard from '../../components/shoes-card/ShoesCard'
 import RoundAvatar from '../../components/round-avatar/RoundAvatar'
@@ -14,6 +14,8 @@ import Tooltip from '../../components/tooltip/Tooltip'
 import Quote from '../quote/Quote'
 import SearchQuote from '../quote/SearchQuote'
 import Profile from '../profile/Profile'
+import Gestures from '../../components/gesture/Gestures'
+import CardGesture from '../../components/card-gesture/CardGesture'
 
 
 const HomePage = () => {
@@ -62,7 +64,7 @@ const HomePage = () => {
     <div className='h-full w-full flex flex-1 justify-center items-center'>
         {/* <Signin/>
         <Navbar/> */}
-        <Signup/>
+        {/* <Signup/> */}
         
           {/* <div className={`h-[90px] w-[200px] bg-pink-50 flex items-center justify-center
           ${isRound?"rounded-[16px]":""}`}>
@@ -141,7 +143,8 @@ const HomePage = () => {
 
           {/* <Profile/> */}
         
-
+          <Gestures/>
+          
 
     </div>
   )
