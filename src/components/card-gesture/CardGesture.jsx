@@ -11,6 +11,7 @@ import {
 } from "firebase/firestore";
 
 import { db } from '../../firebase/firebase.config';
+import ModalClickOut from '../modal/ModalClickOut';
 
 const CardGesture = (props) => {
     const {videoUrl, name, description, reference, id, setData, data} = props
@@ -56,6 +57,13 @@ const CardGesture = (props) => {
                 </div>
             </div>
         </div>
+        <ModalClickOut modalMessage = 'This is the message from modal' 
+          modalHeader = 'Header!' modalButtonText='click me' 
+          modelShow={show} 
+          modelSetShow={setShowHandle}
+          
+          >
+        </ModalClickOut>
     </div>
   )
 }

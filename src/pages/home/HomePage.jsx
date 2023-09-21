@@ -49,10 +49,10 @@ const HomePage = () => {
     // console.log(inputValue, 'day la phim minh bam')
 
     // console.log(inputValue, "day la input from user")
-    // const [show, setShow] = useState(0)
-    // const setShowHandle = () => {
-    //   setShow(!show)
-    // }
+    const [show, setShow] = useState(0)
+    const setShowHandle = () => {
+      setShow(!show)
+    }
 
     // const [showTooltip,setTooltip] =useState(0)
 
@@ -122,11 +122,8 @@ const HomePage = () => {
           /> */}
 
           
-          {/* <CarouselCenter/>
-          <ModalClickOut modalMessage = 'This is the message from modal'  */}
-          {/* modalHeader = 'Header!' modalButtonText='click me' 
-          modelShow={show} 
-          modelSetShow={setShowHandle}/> */}
+          {/* <CarouselCenter/> */}
+          
           {/* <div className='m-5'>
             <Tooltip dataTip = 'hover me to see more'
             tipButtonText = 'Hover me'
